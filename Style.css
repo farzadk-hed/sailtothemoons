@@ -1,0 +1,517 @@
+body {
+    background-image:  url('/home/farzad/Desktop/New Folder/img/Untitled.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: top center;
+    background-size: 85%;
+}
+
+h1{
+    text-align: center;
+    font-family :'Courier New', Courier, monospace Impact;
+    font-size: 24px;
+    background: -webkit-linear-gradient(rgb(8, 8, 8), rgb(94, 94, 94));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+h1:hover{
+    background: transparent;
+    -webkit-background-clip:content-box;
+    background-clip: content-box;
+    -webkit-text-fill-color: rgb(10, 10, 10);
+}
+.header{
+    background-image: url('/home/farzad/Desktop/New Folder/img/4NB4.gif');
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-size: 30%;
+    background-position: right;
+    height: fit-content;
+    margin-bottom: 20px;
+    padding-top: 85px;
+}
+#hxParent {
+    background-image: url('/home/farzad/Desktop/New Folder/img/4NB4.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 35%;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    white-space: nowrap;
+    overflow-y: visible;
+    /*overflow-x: auto;*/
+    display: block;
+}
+.media{
+    background-image: url('/home/farzad/Desktop/New Folder/img/4NB4.gif');
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: 50% ;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    overflow-y: visible;
+    padding-top: 5%;
+}
+.divmlink{
+    padding-left: 80px;
+    padding-bottom: 6%;
+}
+.medialink {
+text-decoration: none;
+font-size: 30px;
+color: rgb(126, 126, 126);
+font-family: 'Courier New', Courier, monospace;
+text-shadow: 3px, black;
+}
+.medialink:hover{
+    color: white;
+}
+.music{
+    background-image: url('/home/farzad/Desktop/New Folder/img/4NB4.gif');
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: 50% ; 
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    height: 100%;
+    overflow-y:visible ;
+    padding-top: 5%;
+}
+.divmulink{
+    padding-right: 80px;
+    padding-bottom: 6%;
+
+}
+.musiclink {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(126, 126, 126);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    .musiclink:hover{
+        color: white;
+    }
+.HeaderAnim{
+    max-width: 60px;
+    height: auto;
+    display: block;
+}    
+
+.intro {
+    text-align: left, justify;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 19px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.intro:hover{
+    color: white;
+}
+.introP{
+    opacity: 60%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 10px;
+    background-color: rgb(20, 20, 20);
+
+}
+.blog {
+    background-image: url('/home/farzad/Desktop/New Folder/img/4NB4.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: auto ;
+    padding-top: 30px;
+    padding-bottom: 75px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 20px;
+    border-bottom: #fff;
+    border-bottom-width:5px;
+    height: 100px;
+    text-shadow: 5px #000;
+}
+.blogbg{
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 10px 100px #000;
+    border-bottom: #fff;
+    border-bottom-width:5px;
+    margin-top: 150px;
+}
+.BlogBoxParent{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.box1{
+    overflow: visible;
+    overflow-wrap:break-word;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-align: left;
+    background-color: rgb(10, 10, 10);
+    width: 275px;
+}
+.box1:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    box-shadow: 10px 10px 1px #fff;
+}
+.box2{
+    overflow: visible;
+    overflow-wrap: break-word;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(10, 10, 10);
+    width: 275px;
+    box-align: center;
+}
+.box2:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    box-shadow: 10px 10px 1px #fff;
+}
+.box3{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    display: inline-block;
+    background-color: rgb(10, 10, 10);
+    width: 275px;
+    box-align:right;
+}
+.box3:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    box-shadow: 10px 10px 1px #fff;
+}
+.box1img{
+    display: inline-block;
+    width:auto;
+    max-height: 40%;
+}
+.box1txt{
+    display: inline-block;
+    width: 90%;
+    padding-left: 15px;
+    max-height: 40%;
+    color: lightgray;
+}
+.box1text:hover{
+    color: white
+}
+.box2img{
+    display: inline-block;
+    width: 25%;
+    max-height: 40%;
+}
+.box2txt{
+    display: inline-block;
+    width: 90%;
+    padding-left: 15px;
+    max-height: 40%;
+    color: lightgray;
+}
+.box3img{
+    display: inline-block;
+    width: 25%;
+    max-height: 40%;
+}
+.box3txt{
+    display: inline-block;
+    width: 90%;
+    padding-left: 15px ;
+    max-height: 40%;
+    color: lightgray;
+}
+.footerclass{
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    opacity: 80%;
+    height: 50px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    border:rgb(126, 126, 126), 50px;
+}
+.social{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.hrefs{
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hrefs:hover{
+    color: white;
+    text-shadow: 10px;
+    font-weight:bold;
+    font-size: 19px;
+}
+.Email{
+    display: inline-block;
+    box-align: left;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+.emailTxt{
+    text-decoration: none;
+    color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.emailTxt:hover{
+    color: white;
+}
+.emailIcon{
+    display: inline-block;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.formdiv{
+    background-image: url('/home/farzad/Desktop/New Folder/img/stars.JPG');
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+}
+.neonShit{
+  margin-left: 25px;
+  align-content: right;
+  width: 550px;;
+  height: auto;
+  display: inline-block;
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'neon';
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.containerNeon {
+  padding-bottom: 40px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.neon {
+  font-family: neon;
+  color: #bdcecb;
+  font-size: 82px;
+  line-height: 60px;
+  text-shadow: 0 0 3vw #858585;
+}
+
+.flux {
+  font-family: neon;
+  padding-top: 20px;
+  font-size: 58px;
+  line-height: 50px;
+  text-shadow: 0 0 3vw #c6cde2;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #333333, 0 0 3vw #5a5a5a, 0 0 10vw #6d6d6d, 0 0 10vw #969696, 0 0 .4vw #9b9b9b, .5vw .5vw .1vw #5f5f5f;
+    color: #a1a1a1
+  }
+  50% {
+    text-shadow: 0 0 .5vw #333333, 0 0 1.5vw #3b3b3b, 0 0 5vw #4d4d4d, 0 0 5vw #5f5f5f, 0 0 .2vw #777777, .5vw .5vw .1vw #181818;
+    color: #929292;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadoSSS   Aw: 0 0 1vw #525252, 0 0 3vw #5a5a5a, 0 0 10vw #6d6d6d, 0 0 10vw #969696, 0 0 .4vw #9b9b9b, .5vw .5vw .1vw #5f5f5f;
+    color: #b6b6b6;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #333333, 0 0 1.5vw #3b3b3b, 0 0 5vw #4d4d4d, 0 0 5vw #5f5f5f, 0 0 .2vw #777777, .5vw .5vw .1vw #181818;
+    color: #929292;
+  }
+}
+
+.formclass{
+    width: 535px;
+    align-content: left;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(8, 8, 8);
+    border: #bdcecb;
+    border-style: dashed;
+    border-width: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px 5px 5px 5px;
+    border-color: darkgrey;
+    color: lightgray;
+}
+.formTitle{
+    font-weight: 600;
+    color: lightgray;
+    text-align: center;
+}
+.formname{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 250px;
+    background-color: darkgrey;
+    border: none;
+}
+.formmail{
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    width: 250px;
+    background-color: darkgrey;
+    border: none;
+}
+.formSubmit{
+    background-color: darkgrey;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 39%;
+    margin-top: 40px;
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.formSubmit:hover{
+    background-color: rgb(25, 25, 25);
+    color: darkgrey;
+}
+.reviewsh2Parent{
+    display: block;
+    background-image: url('/home/farzad/Desktop/New Folder/img/stars.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 20px;
+}
+.reviewsh2{
+    display: inline-block;
+    background-image: url('/home/farzad/Desktop/New Folder/img/4NB4.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: auto ;
+    height: auto;
+    text-align: center;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+.songReviews{
+    background-image: url('/home/farzad/Desktop/New Folder/img/stars.JPG');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*margin-bottom: 150px;*/
+    color: lightgray;
+    display: inline-block;
+    margin-top: 30px;
+}
+.faceimg{
+    display: inline-block;
+    width: 400px;
+    margin-left: 175px;
+}
+.slider {
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+    /*margin-left: 150px;*/
+    background-color: rgb(15, 15, 15);
+    color: #969696;
+  }
+  .slides > div {
+    /* CURRENT way. */
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    scrollbar-track-color: #000;
+  }
+  .slides > div:target {
+    transform: scale(0.8);
+  }
+  .slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+    color: #969696;
+  }
+  .footerimgdiv{
+    width: 100%;
+    height: auto;
+  }
