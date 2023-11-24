@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/new.html"
+      "dest": "/index.html"
     }
   ]
 }
