@@ -24,7 +24,7 @@ h1:hover{
     -webkit-text-fill-color: rgb(10, 10, 10);
 }
 .header{
-    background-image: url('4NB4.gif');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
     background-repeat: no-repeat;
     background-blend-mode:darken;
     background-size: 30%;
@@ -34,7 +34,7 @@ h1:hover{
     padding-top: 85px;
 }
 #hxParent {
-    background-image: url('4NB4.gif');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
     background-repeat: no-repeat;
     background-position: left;
     background-size: 35%;
@@ -47,7 +47,7 @@ h1:hover{
     display: block;
 }
 .media{
-    background-image: url('4NB4.gif');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
     background-repeat: no-repeat;
     background-position: left ;
     background-size: 50% ;
@@ -73,7 +73,7 @@ text-shadow: 3px, black;
     color: white;
 }
 .music{
-    background-image: url('4NB4.gif');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
     background-repeat: no-repeat;
     background-position: right ;
     background-size: 50% ; 
@@ -128,7 +128,7 @@ text-shadow: 3px, black;
 
 }
 .blog {
-    background-image: url('4NB4.gif');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
     background-repeat: no-repeat;
     background-position: center;
     overflow-y: auto ;
@@ -307,7 +307,7 @@ text-shadow: 3px, black;
 
 }
 .formdiv{
-    background-image: url('stars.JPG');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/stars.JPG');
     background-size: cover;
     display: inline-block;
     width: 100%;
@@ -434,7 +434,7 @@ text-shadow: 3px, black;
 }
 .reviewsh2Parent{
     display: block;
-    background-image: url('stars.JPG');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/stars.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -448,7 +448,7 @@ text-shadow: 3px, black;
 }
 .reviewsh2{
     display: inline-block;
-    background-image: url('4NB4.gif');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
     background-repeat: no-repeat;
     background-position: center;
     overflow-y: auto ;
@@ -461,7 +461,7 @@ text-shadow: 3px, black;
 
 }
 .songReviews{
-    background-image: url('stars.JPG');
+    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/stars.JPG');
     background-size: cover;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
