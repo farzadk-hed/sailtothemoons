@@ -583,33 +583,82 @@ text-shadow: 3px, black;
     width: 400px;
     margin-left: 175px;
 }
-.slider {
+.slidermain {
     width: 500px;
     height: 400px;
     display: inline-block;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory; 
     /*margin-left: 150px;*/
     background-color: rgb(15, 15, 15);
-    color: #969696;
+    color: #dfdede;
   }
-  .slides > div {
-    /* CURRENT way. */
-    scroll-snap-align: start;
-    scroll-behavior: smooth;
-    scrollbar-track-color: #000;
+  .review-slider {
+    color: #d6d3d3;
+    background-color: rgb(15, 15, 15);
+    padding: 20px;
+    position:relative;
+    max-height: 50%;
   }
-  .slides > div:target {
-    transform: scale(0.8);
+  .review-slide {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    height: 170px;
+    opacity: 0; /* Start with 0 opacity for fade in */
+    transition: opacity 1.5s ease-in-out; /* Transition for both fade in and out */
   }
-  .slide {
-    width: 300px;
-    flex-shrink: 0;
-    height: 100%;
-    color: #969696;
+  .review-text {
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic, bold;
+    font-size: 20px;
+  }
+  .fade-in {
+    opacity: 1; /* End state for fade in */
+  }
+  .fade-out {
+    opacity: 0; /* End state for fade out */
+  }
+  .sliderbtncontainer{
+  display: block;
+  max-height: 50%;
+  }
+.sliderbtn{
+    background-image:linear-gradient(to right, rgb(17, 17, 17) , rgb(36, 35, 35)) ;
+    color: whitesmoke;
+    display: inline-block;
+    min-width: 100%;
+    height:100px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.sliderbtn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.sliderbtn span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.sliderbtn:hover span {
+    padding-right: 25px;
   }
   
+.sliderbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
   .footerimgdiv{
     width: 100%;
     height: auto;
