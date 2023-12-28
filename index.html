@@ -204,6 +204,22 @@
                 <a href="soundcloud.com" class="hrefs">soundcloud</a>
                 <a href="twitter.com" class="hrefs">twitter</a>
             </div>
-            
+            <div class="copyright">
+                &copy; 2023 FarzadK.Hedayati. All rights reserved.
+            </div>
+            <script>
+                window.onscroll = function() {
+                  var pageOffset = document.documentElement.scrollTop || document.body.scrollTop,
+                      footer = document.querySelector('.footerclass'),
+                      copyright = footer.querySelector('.copyright');
+                  if (window.innerHeight + pageOffset >= document.body.offsetHeight) {
+                    footer.style.height = '80px'; // Adjust the height as needed
+                    copyright.style.display = 'block';
+                  } else {
+                    footer.style.height = '50px'; // Initial height of the footer
+                    copyright.style.display = 'none';
+                  }
+                };
+              </script>
         </footer>
  </html>

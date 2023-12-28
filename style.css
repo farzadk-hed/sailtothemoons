@@ -371,6 +371,8 @@ font-weight: 600;
     padding-bottom: 15px;
     padding-top: 0px;
     border:rgb(126, 126, 126), 50px;
+    z-index: 1000;
+    transition: height 0.5s ease-in-out;
 }
 .social{
     display: inline-block;
@@ -393,7 +395,7 @@ font-weight: 600;
     color: white;
     text-shadow: 10px;
     font-weight:bold;
-    font-size: 19px;
+    font-size: 18px;
 }
 .Email{
     display: inline-block;
@@ -660,6 +662,13 @@ font-weight: 600;
 .sliderbtn:hover span:after {
     opacity: 1;
     right: 0;
+  }
+  .footerclass .copyright {
+    display: none;
+    padding: 5px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color:#5a5a5a;
   }
   .footerimgdiv{
     width: 100%;
