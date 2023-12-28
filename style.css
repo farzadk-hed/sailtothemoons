@@ -24,7 +24,7 @@ h1:hover{
     -webkit-text-fill-color: rgb(10, 10, 10);
 }
 .header{
-    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
+    /*background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');*/
     background-repeat: no-repeat;
     background-blend-mode:darken;
     background-size: 30%;
@@ -34,7 +34,7 @@ h1:hover{
     padding-top: 85px;
 }
 #hxParent {
-    background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');
+    /*background-image: url('https://raw.githubusercontent.com/farzadk-hed/sailtothemoons/main/4NB4.gif');*/
     background-repeat: no-repeat;
     background-position: left;
     background-size: 35%;
@@ -55,19 +55,21 @@ h1:hover{
     text-align: left;
     width: 50%;
     height: 50%;
-    overflow-y: visible;
+    overflow-y: hidden;
     padding-top: 5%;
 }
 .divmlink{
     padding-left: 80px;
     padding-bottom: 6%;
+    overflow-y: hidden;
 }
 .medialink {
 text-decoration: none;
 font-size: 30px;
-color: rgb(126, 126, 126);
+color: rgb(196, 196, 196);
 font-family: 'Courier New', Courier, monospace;
 text-shadow: 3px, black;
+font-weight: 600;
 }
 .medialink:hover{
     color: white;
@@ -81,7 +83,7 @@ text-shadow: 3px, black;
     text-align: right;
     width: 50%;
     height: 50%;
-    overflow-y:visible ;
+    overflow-y:hidden;
     padding-top: 5%;
 }
 .divmulink{
@@ -92,8 +94,8 @@ text-shadow: 3px, black;
 .musiclink {
     text-decoration: none;
     font-size: 30px;
-    font-weight: 400;
-    color: rgb(126, 126, 126);
+    font-weight: 600;
+    color: rgb(196, 196, 196);
     font-family: 'Courier New', Courier, monospace;
     }
     .musiclink:hover{
