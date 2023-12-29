@@ -446,7 +446,7 @@ font-weight: 600;
 }
 
 .neon {
-  font-family: neon;
+  font-family: neon, 'Courier New', Courier, monospace;
   color: #bdcecb;
   font-size: 82px;
   line-height: 60px;
@@ -454,11 +454,11 @@ font-weight: 600;
 }
 
 .flux {
-  font-family: neon;
+  font-family: neon, 'Courier New', Courier, monospace;
   color: #bdcecb;
   padding-top: 20px;
   font-size: 58px;
-  line-height: 50px;
+  line-height: 60px;
   text-shadow: 0 0 3vw #c6cde2;
 }
 
@@ -486,7 +486,30 @@ font-weight: 600;
   -webkit-animation: flux 2s linear infinite;
   -o-animation: flux 2s linear infinite;
 }
-
+.arrow {
+    display: inline-block;
+    animation: colorChange 3s infinite; /* 1s per arrow times 4 arrows */
+    padding-top: 40px;
+    font-size: 85px;
+    line-height: 60px;
+    text-shadow: 0 0 3vw #c6cde2;
+  }
+  @keyframes colorChange {
+    0%, 25%, 100% { color: rgb(29, 29, 29); }
+    12.5% { color: darkgrey; }
+  }
+  .arrow:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .arrow:nth-child(2) {
+    animation-delay: 1s;
+  }
+  .arrow:nth-child(3) {
+    animation-delay: 2s;
+  }
+  .arrow:nth-child(4) {
+    animation-delay: 2s;
+  }
 
 
 .formclass{
